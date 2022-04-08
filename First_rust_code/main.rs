@@ -10,12 +10,12 @@ struct Vec2{
     y: i32,
 }
 
-fn calculate(operation: &str, x: i32 , y: i32) -> i32{
+fn calculate(operation: &str, x: i32 , y: i32) -> Result<>{
     if operation == "sum"{
         return x + y
     } else if operation == "sub"{
         return x - y
     } else {
-        return x * y
+        return "Deu errado fi"
     }
 }
