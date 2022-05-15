@@ -1,6 +1,7 @@
 fn main(){
     let a: (i32, &str) = (32, "Opa");
     let dictionary = Vec2{x: 3, y: 5};
+    println!("{:?}", a);
     println!("{}", a.1);
     
     let x: String = match calculate("", dictionary.x, dictionary.y){

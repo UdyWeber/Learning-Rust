@@ -1,5 +1,5 @@
 [package]
-name = "Learning-Rust"
+name = "mutability"
 version = "0.1.0"
 edition = "2021"
 
