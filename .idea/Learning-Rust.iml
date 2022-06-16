@@ -2,7 +2,14 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/console_input/target" />
+      <excludeFolder url="file://$MODULE_DIR$/data_types/target" />
+      <excludeFolder url="file://$MODULE_DIR$/first_rust_code/target" />
+      <excludeFolder url="file://$MODULE_DIR$/guessing_game/target" />
+      <excludeFolder url="file://$MODULE_DIR$/mutability/target" />
+      <excludeFolder url="file://$MODULE_DIR$/type_casting_plus_arithmetic/target" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
