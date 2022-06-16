@@ -4,16 +4,16 @@ fn print_type_of<T>(_: &T) {
 }
 
 fn main() {
-    // Rust has a ton of data types so we can splite them in Scalar Data Types and Compound Data Types
+    // Rust has a ton of data types so we can split them in Scalar Data Types and Compound Data Types
     // You dont have to type in the primitive types cause the compiler is going to write it
-    // But keep the good practis and type your variables :D
+    // But keep the good practices and type your variables :D
     // Scalars
 
     let x: i32 = 2; // Signed Integer 32 bits
     println!("{}", x);
     // By default integers are i32
-    // We have a lot of Integer Types like i8, i16, i32, i64 and the max beeing i128
-    // And the value beeing singed says that I can have a negative number too as -93231, -424, 2394, 1213 those are i32
+    // We have a lot of Integer Types like i8, i16, i32, i64 and the max being i128
+    // And the value being singed says that I can have a negative number too as -93231, -424, 2394, 1213 those are i32
     // i8 = -2^7..2^7 - 1
 
     let y: u32 = 312; // Unsigned Integers 32 bits
@@ -33,14 +33,14 @@ fn main() {
     let letter: char = ';'; // We have the char type that is a unique character variable
     println!("{}", letter);
 
-    // Coumpound Types
-    // Oberve that a tuple is going to be typed as a tuple of its values
+    // Compound Types
+    // Observe that a tuple is going to be typed as a tuple of its values
 
     let tup: (i32, bool, char) = (1, true, 's');
     let tup2: (i64, bool, char) = (1, true, 's'); // Those tuples seem equal but the types are not the same
     // How to access values from a tuple
     // If we try to print the tuple like = println!("{}", tup); 
-    // Is going to throw us an error cause it cannot interpret the tuple normaly
+    // Is going to throw us an error cause it cannot interpret the tuple normally
     // If we want to access a tuple we need to call it and pass the index of the value that we want
     println!("{}", tup.0); 
     // We cannot iterate over a tuple like in Python
@@ -79,6 +79,4 @@ fn main() {
     // That is going to transform the variable into the type we passed it if its possible 
     let y: i128 = x.into();
     print_type_of(&y);
-
-    
 }  
