@@ -222,9 +222,9 @@ fn exercise_nineteen() {
         x += 2;
         x
     };
- 
+
     assert_eq!(v, 3);
- 
+
     println!("Success!");
 }
 
@@ -233,14 +233,14 @@ fn exercise_twenty() {
         let x = 3;
         x
     };
- 
+
     assert!(v == 3);
- 
+
     println!("Success!");
 }
 
 fn exercise_twenty_one() {
-    let s = sum(1 , 2);
+    let s = sum(1, 2);
     assert_eq!(s, 3);
 
     println!("Success!");
